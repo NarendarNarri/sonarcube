@@ -15,7 +15,9 @@
     <profiles>
         <profile>
             <id>sonar</id>
-            <url>http://18.219.26.234:9000</url>
+            <properties>
+            <sonar.host.url>http://18.219.26.234:9000</sonar.host.url>
+            </properties>
         </profile>
     </profiles>
 
